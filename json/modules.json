@@ -1,94 +1,117 @@
 {
-  "name": "Googlers Magisk Repo",
-  "website": "https://mmrl.dergoogler.com",
-  "support": "https://github.com/Googlers-Repo/gmr/issues",
-  "donate": "https://github.com/sponsors/DerGoogler",
-  "submission": "https://github.com/Googlers-Repo/gmr/issues/new?assignees=&labels=module&projects=&template=submission.yml&title=%5BModule%5D%3A+",
-  "cover": "https://gr.dergoogler.com/gmr/assets/cover.webp",
-  "description": "A collection of handy tools and tweaks for your Magisk-enabled Android device. If you're into customizing your phone, GMR makes it easy to find, download, and install Magisk modules that can enhance your device's functionality or add cool features.",
+  "id": "examplcom",
+  "name": "Template Magisk Modules Repository",
+  "website": null,
+  "support": null,
+  "donate": null,
+  "submission": null,
+  "cover": "https://example.com/assets/cover.webp",
+  "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1736012116.865757
+    "timestamp": 1742502708.906051
   },
   "modules": [
     {
-      "id": "viper4androidfork",
-      "name": "Viper4Android",
-      "version": "v3.0",
-      "versionCode": 300,
-      "author": "KOWX712",
-      "description": "A WebUI to conifgure tricky store target.txt ",
-      "added": 1723905223.0,
-      "require": ["tricky_store"],
-      "categories": ["WebUI"],
-      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
-      "license": " GPL-3.0",
-      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
-      "note": {
-        "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
-      },
-      "verified": false,
-      "timestamp": 1735695562.0,
-      "size": 1205108,
+      "id": "bindhosts",
+      "name": "bindhosts",
+      "version": "v1.9.9",
+      "versionCode": 199,
+      "author": "xx, KOWX712",
+      "description": "Systemless hosts for APatch, KernelSU and Magisk ",
+      "added": 1733301165,
+      "verified": true,
+      "categories": [
+        "Adblocking and Hosts Files",
+        "APatch",
+        "KernelSU",
+        "Magisk"
+      ],
+      "support": "https://github.com/bindhosts/bindhosts/issues",
+      "screenshots": [
+        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/mmrl_manager.png",
+        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/mmrl_webui.png",
+        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/manager_action.png"
+      ],
+      "license": "WTFPL",
+      "readme": "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/README.md",
+      "timestamp": 1741954274.0,
+      "size": 53454,
       "features": {
         "service": true,
         "post_fs_data": true,
-        "action": true
+        "action": true,
+        "webroot": true
       },
       "track": {
         "type": "ONLINE_JSON",
-        "added": 1723905223.0,
-        "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
-        "antifeatures": ["NonFreeAdd", "NonFreeDep"]
+        "added": 1733301165,
+        "source": "https://github.com/backslashxx/bindhosts",
+        "antifeatures": null,
+        "build_metadata": "https://example.com/modules/bindhosts/track.yaml"
       },
       "versions": [
         {
-          "timestamp": 1732972101.0,
-          "version": "v2.6",
-          "versionCode": 260,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.6_260.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.6_260.md",
-          "size": 1187388
+          "timestamp": 1735904596.0,
+          "version": "v1.8.5",
+          "versionCode": 185,
+          "zipUrl": "https://example.com/modules/bindhosts/v1.8.5_185.zip",
+          "changelog": "https://example.com/modules/bindhosts/v1.8.5_185.md",
+          "size": 31756
         },
         {
-          "timestamp": 1733565627.0,
-          "version": "v2.7",
-          "versionCode": 270,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.7_270.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.7_270.md",
-          "size": 1185848
-        },
+          "timestamp": 1741954274.0,
+          "version": "v1.9.9",
+          "versionCode": 199,
+          "zipUrl": "https://example.com/modules/bindhosts/v1.9.9_199.zip",
+          "changelog": "https://example.com/modules/bindhosts/v1.9.9_199.md",
+          "size": 53454
+        }
+      ]
+    },
+    {
+      "id": "mmrl_wpd",
+      "name": "WiFi Password Viewer for MMRL",
+      "version": "4.7.7",
+      "versionCode": 459,
+      "author": "Der_Googler, veez21 @ xda-developers",
+      "description": "View all your WiFi passwords and bluetooth devices inside MMRL",
+      "added": 1445340430.7142262,
+      "categories": [
+        "WebUI",
+        "Tweaks and Hacks",
+        "Miscellaneous"
+      ],
+      "support": "https://github.com/Googlers-Repo/wpd/issues",
+      "readme": "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/README.md",
+      "verified": true,
+      "screenshots": [
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/1.jpg",
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/2.jpg",
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/3.jpg",
+        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/4.jpg"
+      ],
+      "timestamp": 1735764644.0,
+      "size": 462291,
+      "features": {
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "GIT",
+        "added": 1445340430.7142262,
+        "source": "https://github.com/Googlers-Repo/wpd.git",
+        "antifeatures": null,
+        "build_metadata": "https://example.com/modules/mmrl_wpd/track.yaml"
+      },
+      "versions": [
         {
-          "timestamp": 1733577682.0,
-          "version": "v2.7.1",
-          "versionCode": 271,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.7.1_271.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.7.1_271.md",
-          "size": 1185982
-        },
-        {
-          "timestamp": 1734163760.0,
-          "version": "v2.8",
-          "versionCode": 280,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.8_280.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.8_280.md",
-          "size": 1187881
-        },
-        {
-          "timestamp": 1735116131.0,
-          "version": "v2.9",
-          "versionCode": 290,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.9_290.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v2.9_290.md",
-          "size": 1198627
-        },
-        {
-          "timestamp": 1735695562.0,
-          "version": "v3.0",
-          "versionCode": 300,
-          "zipUrl": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.0_300.zip",
-          "changelog": "https://gr.dergoogler.com/gmr/modules/TA_utl/v3.0_300.md",
-          "size": 1205108
+          "timestamp": 1735764644.0,
+          "version": "4.7.7",
+          "versionCode": 459,
+          "zipUrl": "https://example.com/modules/mmrl_wpd/4.7.7_459.zip",
+          "changelog": "",
+          "size": 462291
         }
       ]
     }
