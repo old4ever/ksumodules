@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1742666523.594338
+    "timestamp": 1742688367.461913
   },
   "modules": [
     {
@@ -37,6 +37,12 @@
       "readme": "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/README.md",
       "timestamp": 1741954274.0,
       "size": 53454,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
       "features": {
         "service": true,
         "post_fs_data": true,
@@ -93,6 +99,10 @@
       ],
       "timestamp": 1735764644.0,
       "size": 462291,
+      "permissions": [
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
       "features": {
         "action": true,
         "webroot": true
