@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1751716946.404351
+    "timestamp": 1751738530.806786
   },
   "modules": [
     {
@@ -21,6 +21,12 @@
       "description": "Systemless hosts for APatch, KernelSU and Magisk ",
       "added": 1733301165,
       "verified": true,
+      "readme": "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/README.md",
+      "screenshots": [
+        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/mmrl_manager.png",
+        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/mmrl_webui.png",
+        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/manager_action.png"
+      ],
       "categories": [
         "Adblocking and Hosts Files",
         "APatch",
@@ -28,13 +34,7 @@
         "Magisk"
       ],
       "support": "https://github.com/bindhosts/bindhosts/issues",
-      "screenshots": [
-        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/mmrl_manager.png",
-        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/mmrl_webui.png",
-        "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/manager_action.png"
-      ],
       "license": "WTFPL",
-      "readme": "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/README.md",
       "timestamp": 1741954274.0,
       "size": 53454,
       "permissions": [
